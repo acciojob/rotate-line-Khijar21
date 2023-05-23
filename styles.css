@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+.container {
+	width: 100%;
+	height: 500px;
+	margin: 100px;
+}
+#line {
+	background-color: black;
+	width: 200px;
+	height: 2px;
+	animation: spin 2s linear infinite;
+}
+@keyframes spin{
+	0% {transform:rotate(0deg)}
+	100%{transform:rotate(360deg)}
+}
